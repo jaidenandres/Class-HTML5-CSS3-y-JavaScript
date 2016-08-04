@@ -7,20 +7,47 @@
   <body>
     <nav>
         <ul>
-            <li>
-                <a href="#"></a>Inicio</li>
-            <li>
-                <a href="#quiensoy"></a>Quien Soy</li>
-            <li>
-                <a href="#equipo"></a>Equipo</li>
-            <li>
-                <a href="#transporte"></a>Transporte</li>
-            <li>
-                <a href="contact.html"></a>Contacto</li>
+          <li>
+              <a href="index.html">Inicio</a></li>
+          <li>
+              <a href="index.html">Quien Soy</a></li>
+          <li>
+              <a href="index.html">Equipo</a></li>
+          <li>
+              <a href="index.html">Transporte</a></li>
+          <li>
+              <a href="contact.html">Contacto</a></li>
         </ul>
     </nav>
+    <section>
+      <h2>Contacta con nosotros</h2>
+      <div class="">
+        <div id="googleMap"></div>
+      </div>
+      <div>
+        <form name="contact-batman" method="get">
+          <div class="">
+            <label for="nombre">Nombre</label><input type="text" id="nombre" name="nombre" class="text" placeholder="Nombre" required>
+            <label for="apellidos">Apellidos</label><input type="text" id="apellidos" name="apellidos" placeholder="Apellidos" class="text" required>
+          </div>
+          <div class="">
+            <label for="mail">Email</label>
+            <input type="email" name="email" placeholder="name@company.com" required pattern="[A-Za-z0-9\.\+]+@[A-Za-z0-9]+\.[A-Za-z0-9\.]+">
+          </div>
+          <div class="">
+          <label for="tipo-mision-1">Consulta</label><input type="radio" class="radio" id="tipo-mision-1" name="tipo-mision" required value="Consulta">
+          <label for="tipo-mision-2">Misión Simple</label><input type="radio" class="radio" id="tipo-mision-2" name="tipo-mision" required value="Misión Simple">
+          <label for="tipo-mision-3">Rescate</label><input type="radio" class="radio" id="tipo-mision-3" name="tipo-mision" required value="Rescate">
+          <label for="tipo-mision-4">Salvar Gotham</label><input type="radio" class="radio" id="tipo-mision-4" name="tipo-mision" required value="Salvar Gotham">
+          </div>
+        </form>
+      </div>
+    </section>
+    <section>
+
+    </section>
   </body>
   <footer>
-      Jaiden Andrés Jiménez &copy. 2016 JAJJZ
+      Jaiden Andrés Jiménez &copy. 2016 JAIDEN
   </footer>
 </html>
